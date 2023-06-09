@@ -1,6 +1,9 @@
 
 #include "iiwa14.h"
 
+#include "pinocchio/parsers/urdf/model.hxx"
+#include "pinocchio/parsers/urdf/geometry.hxx"
+
 #define DoP 4 // degree of parallelism 
 
 pinocchio::Model model;
